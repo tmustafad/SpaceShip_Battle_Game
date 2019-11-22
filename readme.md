@@ -8,7 +8,7 @@ H2 db and Spring data is used for db interactions
 
 Simply run build.sh
 
-###running
+### running
 
 Simply run run.sh
 
@@ -27,8 +27,8 @@ Simply run run.sh
 #Request
 ```
 {
-"user_id": "xebialabs-1", 
-"full_name": "XebiaLabs Opponent", 
+"user_id": "user-1", 
+"full_name": "user Opponent", 
 "spaceship_protocol": {
 "hostname": "127.0.0.1",
 "port": 9001 }
@@ -39,8 +39,8 @@ Simply run run.sh
 {
     "user_id": "player",
     "game_id": 3,
-    "starting": "xebialabs-1",
-    "fullName": "Assessment Player"
+    "starting": "user-1",
+    "fullName": "user Player"
 }
 ```
 
@@ -64,7 +64,7 @@ In react-api module simply run startFrontEnd.sh and in browser you can reach the
 #Response
 ```
 {
-    "playerTurn": "xebialabs-1",
+    "playerTurn": "user-1",
     "message": null,
     "salvoList": {
         "8xA": "Miss",
@@ -88,7 +88,7 @@ In react-api module simply run startFrontEnd.sh and in browser you can reach the
 #Response
 ```
 {
-    "playerTurn": "player-1",
+    "playerTurn": "user-1",
     "message": null,
     "salvoList": {
         "BxA": "Miss",
