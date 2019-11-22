@@ -1,5 +1,5 @@
 
-#  xlspaceship-Instructions
+#  spaceship-Instructions
 The Rest api is developed with **Spring Boot** 
 H2 db and Spring data is used for db interactions
 
